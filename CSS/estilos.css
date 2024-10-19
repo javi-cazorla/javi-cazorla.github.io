@@ -1,0 +1,350 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    /* font-family: 'Lovelace', serif; */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #2f4858;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    /* padding: 20px; */
+  }
+  
+  /* Header */
+  header {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #2f4858;
+  }
+  
+  header span {
+    color: #00745e;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #235161;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00745e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #006c65;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 60px 0;
+  }
+  
+  .gris {
+    background-color: #f4f4f4;
+  }
+  
+  .blanco {
+    background-color: #ffffff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2f4858;
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #235161;
+  }
+  
+  /* Sobre mí */
+  .skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+  }
+  
+  .skills li {
+    list-style: none;
+    background-color: #00745e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Proyectos */
+  .proyecto {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .proyecto a {
+    color: #00745e;
+    text-decoration: none;
+  }
+  
+  .proyecto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contacto */
+  #contacto input, #contacto textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  #contacto button {
+    padding: 10px 20px;
+    background-color: #00745e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contacto button:hover {
+    background-color: #006c65;
+  }
+  
+  #contacto .container p a {
+    text-decoration: none;
+    color: #00745e;
+    cursor: pointer;
+  }
+
+  #contacto .container p a:hover {
+    text-decoration: underline;
+  }
+
+  .redes {
+    text-align: center;
+  }
+
+  .redes a {
+    color: #00745e;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .redes a:hover {
+    color: #006368;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2f4858;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .texto {
+    flex: 1;
+    color: #2f4858;
+  }
+  
+  .imagen img {
+    width: 400px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  /* Navegación */
+  nav {
+      width: 100%;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: top 0.3s ease-in-out, padding 0.3s ease;
+      /* padding: 15px 0; */
+      position: fixed;
+      z-index: 100;
+  }
+  
+  nav.shrink {
+      padding: 5px 0;
+  }
+  
+  nav.hide {
+      top: -100px;
+  }
+  
+  nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  nav h1 a {
+      color: #00745e;
+      text-decoration: none;
+      font-size: 1.5rem;
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+  }
+  
+  nav ul li {
+      display: inline;
+  }
+  
+  nav ul li a {
+      color: #2f4858;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+      color: #00745e;
+      text-decoration: underline;
+  }
+
+
+/*Top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 60px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover 
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));*/
+}
+
+.arrowup{
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+
+
+
+
+.tooltip {
+  position: relative;
+  cursor: help;
+  color: #fff;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 160px;
+  background-color: #2f4858;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Muestra arriba del texto */
+  left: 50%;
+  margin-left: -80px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+section div p {
+  text-align: left; 
+  width: 92%; 
+  margin: auto; 
+  line-height: 1.4rem;
+}
+
+
+@font-face {
+  font-family: Lovelace;
+  src: url(../fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Regular.otf);
+}
+
+@font-face {
+  font-family: LovelaceBold;
+  src: url(../fonts/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Bold\ Italic.otf);
+}
+
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagen img {
+      width: 70%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .skills {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .skills li{
+    text-align: center;
+  }
+
+  nav{
+    z-index: -1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  p {
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+  }
+}

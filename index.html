@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Javi Cazorla, desarrollador web especializado en .NET">
+    <title>Javi Cazorla</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="fonts/Lovelace/Zetafonts - Lovelace Text Regular.otf" rel="stylesheet">
+    <link href="fonts/Lovelace/Zetafonts - Lovelace Text Bold Italic.otf" rel="stylesheet">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav id = "navbar">
+        <div class="container">
+            <h1><a href="#inicio">Javi Cazorla</a></h1>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <!-- <li><a href="#proyectos">Proyectos</a></li> -->
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <header id="inicio">
+        <div class="container">
+            <div class="intro">
+                <div class="texto">
+                    <h1>¡Hola! Me llamo <span>Javi Cazorla</span></h1>
+                    <p>Trabajo de desarrollador de software especializado en <span>.NET</span></p>
+                    <!-- <a href="#proyectos" class="btn">Ver Proyectos</a> -->
+                </div>
+                <div class="imagen">
+                    <img src="img/comprimidas/DSC_0802min-min.jpg" alt="Imagen de presentación">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <i onclick="topFunction()" id="myBtn" class="arrowup"></i>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="gris">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <p>
+                Soy un <strong>desarrollador de software</strong> con casi <strong>tres años de experiencia</strong> trabajando principalmente en proyectos web utilizando tecnologías como <strong>C# y .NET</strong>. <br/>
+                Desde que entré en el mundo de la Informática a través del grado superior de <strong>Desarrollo de Aplicaciones Multiplataforma</strong>, me ha fascinado.<br/>
+                Por eso actualmente estoy cursando la <strong>carrera de Ingeniería Informática</strong> a distancia, para complementar mis conocimientos con un mejor entendimiento de la programación.<br/>
+                Siempre que puedo (sin perjudicar tiempos de entrega) intento buscar forma más óptima de mejorar la eficiencia de mis desarrollos y la experiencia del usuario final.
+            </p>
+
+            <h3>Habilidades</h3>
+            <ul class="skills">
+                <li>
+                    <span class="tooltip">C# y ASP.NET Core
+                        <span class="tooltip-text">Desarrollo de aplicaciones robustas y APIs escalables, centradas en seguridad y rendimiento</span>
+                    </span>
+                </li>
+                <li>
+                    <span class="tooltip">HTML y CSS
+                        <span class="tooltip-text">Tecnologías básicas para estructurar y dar estilo a páginas web, permitiendo crear interfaces visualmente atractivas y funcionales.</span>
+                    </span>
+                </li>                
+                <li>
+                    <span class="tooltip">JavaScript y Vue
+                        <span class="tooltip-text">Creación de interfaces interactivas y dinámicas utilizando las capacidades de Vue</span>
+                    </span>
+                </li>
+                <li>
+                    <span class="tooltip">SQL y Bases de Datos
+                        <span class="tooltip-text">Diseño de bases de datos eficientes con consultas optimizadas y procedimientos almacenados</span>
+                    </span>
+                </li>
+                <li>
+                    <span class="tooltip">Git y GitHub
+                        <span class="tooltip-text">Control de versiones eficiente y automatización de pipelines para CI/CD</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- De momento se comenta hasta que tenga algún proyecto interesante que mostrar -->
+    <!-- Sección Proyectos -->
+    <!-- <section id="proyectos" class="blanco">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1 - Gestión de Usuarios</h3>
+                <p>Sistema web en ASP.NET Core para gestionar usuarios.</p>
+                <a href="https://github.com/tuusuario/proyecto1" target="_blank">Ver en GitHub</a>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2 - Dashboard en React</h3>
+                <p>Dashboard interactivo desarrollado en React con API .NET.</p>
+                <a href="https://github.com/tuusuario/proyecto2" target="_blank">Ver en GitHub</a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="blanco">
+        <div class="container">
+            <h2>Contacto</h2>
+            <!-- <form action="#" method="post">
+                <input type="email" name="email" placeholder="Tu correo" required>
+                <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form> -->
+            <p>¿Quieres contactarme? Puedes escribirme por <a href="https://linkedin.com/in/javi-cazorla/">LinkedIn</a></p>
+            <div class="redes">
+                <a href="https://github.com/DarkJavi15" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/javi-cazorla/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="fa-solid fa-code"></i></a>
+                <a href="" target="_blank"><i class="fa-solid fa-terminal"></i></a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Javi cazorla. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

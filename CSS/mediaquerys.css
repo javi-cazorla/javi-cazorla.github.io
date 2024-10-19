@@ -1,0 +1,309 @@
+/*Tablet vertical*/
+@media (min-width: 768px) and (orientation: portrait){
+    
+    #myBtn {
+        bottom: 35px;
+        right: 45px;
+    }
+
+    .arrowup {
+        border-width: 0 5px 5px 0;
+        padding: 13px;
+    }
+    
+    .nav{
+        justify-content: space-around;
+    }
+
+    .logo {
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+
+    .hamburguer {
+        margin-right: 0;
+        margin-top: 1%;
+    }
+
+    .contenedor {
+        height: 100vh;
+    }
+
+    .bloqueUno, .bloqueDos, .bloqueTres, .bloqueCuatro, .bloqueCinco, .bloqueSeis{
+        background-attachment: fixed;
+    }
+
+    .footer{
+        font-size: 2.3em;
+    }
+
+    .footer a img {
+        width: 10vw;
+        margin: 8% 4% 0% 4%;
+    }
+
+}
+
+
+
+/*Tablet horizontal*/
+@media (min-width: 1024px) and (orientation: landscape){
+    #myBtn {
+        bottom: 25px;
+        right: 50px;
+    }
+
+    .arrowup {
+        border-width: 0 4px 4px 0;
+        padding: 11px;
+    }
+
+    .contenedor {
+        height: 100vh;
+    }
+
+    .nav {
+        justify-content: space-around;
+    }
+
+    .hamburguer, .logo {
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+
+    .bloqueUno, .bloqueDos, .bloqueTres, .bloqueCuatro, .bloqueCinco, .bloqueSeis{
+        background-attachment: fixed;
+    }
+
+    .contenedor p {
+        width: 25%;
+    }
+
+    .footer{
+        font-size: 2.3em;
+    }
+
+    .footer p {
+        width: 45%;
+        padding-top: 2%;
+    }
+
+    .footer a img {
+        width: 7vw;
+        margin: 2% 8% 0% 8%;
+    }
+
+}
+
+
+
+
+/*Tablet grande vertical*/
+@media (min-width: 1024px) and (orientation: portrait){
+    #myBtn {
+        bottom: 45px;
+        right: 60px;
+    }
+
+    .arrowup {
+        border-width: 0 6px 6px 0;
+        padding: 17px;
+    }
+
+    nav{
+        height: 6vh;
+    }
+
+    .hamburguer {
+        margin-top: 2%;
+    }
+
+    .header article h1{
+        font-size: 4em;
+    }
+
+    .header article h3{
+        font-size: 2em;
+    }
+
+    .contenedor p {
+        font-size: 2em;
+    }
+
+    .footer a img {
+        width: 10vw;
+        margin: 6% 4% 0% 4%;
+    }
+
+    .footer {
+        font-size: 3em;
+        padding-top: 1%;
+    }
+}
+
+/*Portátil pequeño*/
+@media (min-width: 1280px) and (max-width: 1439px){
+
+    #myBtn {
+        bottom: 35px;
+        right: 70px;
+    }
+
+    .arrowup {
+        border-width: 0 5px 5px 0;
+        padding: 15px;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(
+    45deg) translate(-9px, -7px);
+        transform: rotate(
+    45deg) translate(-9px, -7px);
+    }
+
+    .header article h1{
+        font-size: 4em;
+    }
+
+    .header article h3{
+        font-size: 2.5em;
+    }
+
+    nav {
+        height: 8vh;
+    }
+
+    .footer p {
+        width: 32%;
+    }
+
+    .footer a img {
+        margin: 2% 5% 0% 5%;
+    }
+
+
+}
+
+/*Tablet grande horizontal*/
+@media (min-width: 1366px) and (orientation: landscape){
+    #myBtn {
+        bottom: 45px;
+        right: 60px;
+    }
+
+    .arrowup {
+        border-width: 0 6px 6px 0;
+        padding: 17px;
+    }
+
+    nav{
+        height: 7vh;
+    }
+
+    .logo{
+        width: 4%;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 3.7vw;
+        height: 0.8vh;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(
+    -45deg) translate(-10px, 8px);
+        transform: rotate(
+    -45deg) translate(-10px, 8px);
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(
+    45deg) translate(-12px, -8px);
+        transform: rotate(
+    45deg) translate(-12px, -8px);
+    }
+    
+    .header article h1{
+        font-size: 4em;
+    }
+
+    .header article h3{
+        font-size: 2em;
+    }
+
+    .contenedor p {
+        font-size: 2em;
+    }
+
+    .footer {
+        font-size: 3em;
+    }
+
+
+
+}
+
+
+
+/*Portátil normal*/
+@media (min-width: 1440px){
+
+    #myBtn {
+        bottom: 35px;
+        right: 65px;
+    }
+
+    .arrowup {
+        border-width: 0 4px 4px 0;
+        padding: 14px;
+    }
+
+    nav {
+        height: 9vh;
+    }
+
+    .logo {
+        width: 3%;
+        margin-top: 0.5%;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 2.8vw;
+        height: 0.8vh;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate( 
+    -45deg) translate(-10px, 5px);
+        transform: rotate( 
+    -45deg) translate(-10px, 5px);
+    }
+
+    .footer a img {
+        width: 4vw;
+        margin: 2% 6% 0% 6%;
+    }
+
+    .footer p {
+        width: 45%;
+        padding-top: 1%;
+    }
+
+    .footer {
+        height: 13vh;
+        font-size: 2.5em;
+    }
+}
+
+
+
+/*Portátil grande*/
+@media (min-width: 2560px){
+    
+}
+
