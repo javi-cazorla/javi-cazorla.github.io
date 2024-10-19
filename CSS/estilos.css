@@ -299,7 +299,7 @@ body {
 
 section div p {
   text-align: left; 
-  width: 92%; 
+  width: fit-content; 
   margin: auto; 
   line-height: 1.4rem;
 }
